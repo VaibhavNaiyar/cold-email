@@ -224,14 +224,14 @@ mod tests {
         assert!(!may_be_operating_company(&filing("25Madison Ventures Fund II, L.P.")));
         assert!(!may_be_operating_company(&filing("NC-2026 a Series of CGF2021 LLC")));
         assert!(!may_be_operating_company(&filing("Ripple Effect Onshore Fund LP")));
-        assert!(may_be_operating_company(&filing("Synaptyx Labs Inc.")));
+        assert!(may_be_operating_company(&filing("Acme Robotics Inc.")));
         assert!(may_be_operating_company(&filing("Fundly Inc.")));
     }
 
     #[test]
     fn keeps_a_young_tech_company_and_its_people() {
         let signal = parse_filing(TECH, "https://sec.test/a", Utc::now()).unwrap().unwrap();
-        assert_eq!(signal.company_name, "Synaptyx Labs Inc.");
+        assert_eq!(signal.company_name, "Acme Robotics Inc.");
         assert_eq!(signal.amount_usd, Some(2_500_000));
         assert_eq!(signal.domain, None);
         assert_eq!(signal.raw["year_of_inc"], "2024");

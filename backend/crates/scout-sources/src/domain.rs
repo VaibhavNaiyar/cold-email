@@ -66,7 +66,7 @@ mod tests {
     #[test]
     fn name_key_ignores_case_and_legal_suffixes() {
         assert_eq!(name_key("Acme, Inc."), name_key("ACME"));
-        assert_eq!(name_key("Synaptyx Labs GmbH"), "synaptyx labs");
+        assert_eq!(name_key("Acme Robotics GmbH"), "acme robotics");
         assert_eq!(name_key("AI"), "ai");
     }
 }

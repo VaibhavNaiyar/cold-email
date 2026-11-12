@@ -3,7 +3,7 @@
     <schemaVersion>X0708</schemaVersion>
     <submissionType>D</submissionType>
     <primaryIssuer>
-        <entityName>Synaptyx Labs Inc.</entityName>
+        <entityName>Acme Robotics Inc.</entityName>
         <issuerAddress><stateOrCountry>CA</stateOrCountry></issuerAddress>
         <issuerPreviousNameList><value>None</value></issuerPreviousNameList>
         <yearOfInc><withinFiveYears>true</withinFiveYears><value>2024</value></yearOfInc>
