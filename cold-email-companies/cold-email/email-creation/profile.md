@@ -11,7 +11,7 @@ resume (`E:\AI-JOB\vbvResume (1).pdf`) and public GitHub, checked 2026-11-02. Li
 - Location / timezone: India, IST. TODO: city, and how many hours of US/EU overlap you can do
 - Work authorization: TODO (e.g. Indian citizen; needs visa sponsorship for US/UK/Canada)
 - Current status: final-year B.Tech CSE at SRM University (Aug 2023 – May 2027, GPA 8.92/10);
-  AI Apprentice at a UK AI startup (remote) since July 2026
+  AI Apprentice at SynaptyX AI (remote, UK) since July 2026
 - Target roles: AI engineer, full-stack engineer, SDE, forward deployed engineer, DevOps/platform,
   founding engineer (junior). Internship or full-time, remote or in India.
 
@@ -22,7 +22,7 @@ unusual sentences). Candidate facts already true, if one of them is the story:
 - Built uptime monitoring twice, in TypeScript and again in Rust, to learn how it really works.
 
 ## Proof points (best first; numbers where possible)
-1. UK AI startup (AI Apprentice, Jul 2026–now; don't name the company): built AI agent demos shown at IMC 2026 and in client
+1. SynaptyX AI (AI Apprentice, Jul 2026–now): built AI agent demos shown at IMC 2026 and in client
    pitches; a shared AG-UI/A2UI orchestration layer used across all company products; a survey
    platform that parses .docx questionnaires and streams results live; found a cross-tenant
    authorization bug while adding OpenTelemetry tracing.
@@ -61,4 +61,4 @@ Programming in Java (NPTEL) · Samsung Innovation Campus (2026)
 ## Things never to say
 - Don't claim full-time or senior experience: the work is an apprenticeship plus freelance projects.
 - Don't claim to have used, tried or built anything for the recipient's company unless it's true.
-- TODO: anything else (e.g. don't mention GPA; don't name the employer or its clients).
+- TODO: anything else (e.g. don't mention GPA; don't name SynaptyX clients or share its code).

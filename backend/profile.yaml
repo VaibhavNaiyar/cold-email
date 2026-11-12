@@ -2,7 +2,7 @@ name: Vaibhav Naiyar
 # From the resume and public GitHub repos (checked 2026-11-02). The scorer reads this.
 summary: >-
   Final-year B.Tech CSE student at SRM University (graduates May 2027, GPA 8.92), based in India.
-  AI Apprentice at a UK AI startup (remote) since July 2026: builds multi-agent demos shown to
+  AI Apprentice at SynaptyX AI (UK, remote) since July 2026: builds multi-agent demos shown to
   clients, a shared AG-UI/A2UI response-orchestration layer, a .docx survey platform streamed
   over AG-UI, OpenTelemetry tracing, and found a cross-tenant authorization bug.
   Freelance full-stack work shipped to production: CloudVidya Academy (Turborepo, two Next.js
@@ -44,7 +44,7 @@ must_be_ai: true
 exclude_domains: []
 max_emails_per_day: 10
 proof_points:   # The LLM picks the most relevant one; it goes into the email word for word.
-  - "At a UK AI startup I build multi-agent demos and a shared AG-UI orchestration layer used across products"
+  - "At SynaptyX AI I build multi-agent demos and a shared AG-UI orchestration layer used across products"
   - "Built a streaming RAG engine that retrieves before the speaker finishes, with a live operator console"
   - "Shipped CloudVidya Academy: two Next.js apps with Qdrant semantic search, Razorpay and NextAuth"
   - "Built a real-time collaborative drawing app over WebSockets, deployed with CI/CD"
