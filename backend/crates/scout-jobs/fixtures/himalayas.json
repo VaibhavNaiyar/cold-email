@@ -1,0 +1,18 @@
+{
+  "comments": "Search results come 20 to a page.",
+  "totalCount": 2,
+  "jobs": [
+    {
+      "title": "Devops Engineer", "excerpt": "Platform work.", "companyName": "Miratech",
+      "companySlug": "miratech", "employmentType": "Full Time", "seniority": ["Mid-level", "Senior"],
+      "locationRestrictions": ["India", "Poland"], "pubDate": 1793721175,
+      "description": "<p>Build CI/CD.</p>",
+      "applicationLink": "https://himalayas.app/companies/miratech/jobs/devops-engineer-1?utm_source=api",
+      "guid": "https://himalayas.app/companies/miratech/jobs/devops-engineer-1"
+    },
+    {
+      "title": "AI Engineer", "companyName": "Gamma", "locationRestrictions": [], "pubDate": null,
+      "guid": "https://himalayas.app/companies/gamma/jobs/ai-engineer-2"
+    }
+  ]
+}

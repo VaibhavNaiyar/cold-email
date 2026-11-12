@@ -1,0 +1,28 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "240d459b",
+      "title": "AI Engineer, New Grad",
+      "department": "Engineering",
+      "team": "Applied AI",
+      "employmentType": "FullTime",
+      "location": "London",
+      "secondaryLocations": [{ "location": "Remote - Europe", "address": null }],
+      "publishedAt": "2026-10-05T00:03:20.653+00:00",
+      "isListed": true,
+      "isRemote": null,
+      "workplaceType": null,
+      "jobUrl": "https://jobs.ashbyhq.com/acme/240d459b",
+      "applyUrl": "https://jobs.ashbyhq.com/acme/240d459b/application",
+      "descriptionPlain": "Build the agent platform."
+    },
+    {
+      "id": "hidden",
+      "title": "Unlisted role",
+      "location": "Paris",
+      "isListed": false,
+      "jobUrl": "https://jobs.ashbyhq.com/acme/hidden"
+    }
+  ]
+}

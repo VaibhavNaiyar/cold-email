@@ -1,0 +1,31 @@
+[package]
+name = "scout-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "scout"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+axum.workspace = true
+chrono.workspace = true
+clap.workspace = true
+futures.workspace = true
+reqwest.workspace = true
+scout-config.workspace = true
+scout-db.workspace = true
+scout-enrich.workspace = true
+scout-jobs.workspace = true
+scout-llm.workspace = true
+scout-mail.workspace = true
+scout-sources.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tokio.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>We Work Remotely: Full-Stack Programming Jobs</title>
+    <item>
+      <title>Acme: Full-Stack Engineer</title>
+      <region>Anywhere in the World</region>
+      <category>Full-Stack Programming</category>
+      <type>Full-Time</type>
+      <description>&lt;p&gt;Build the &lt;b&gt;agent&lt;/b&gt; console.&lt;/p&gt;</description>
+      <pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+      <guid>https://weworkremotely.com/remote-jobs/acme-full-stack-engineer</guid>
+      <link>https://weworkremotely.com/remote-jobs/acme-full-stack-engineer</link>
+    </item>
+    <item>
+      <title>Untitled listing</title>
+      <link>https://weworkremotely.com/remote-jobs/x</link>
+    </item>
+  </channel>
+</rss>

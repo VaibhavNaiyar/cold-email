@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1, "name": "Cerebral Valley", "slug": "cerebral-valley", "former_names": [],
+    "website": "https://www.cerebralvalley.example/about", "all_locations": "San Francisco, CA, USA",
+    "one_liner": "Agents for support teams", "team_size": 4, "industry": "B2B",
+    "launched_at": 1790000000, "tags": ["AI"], "isHiring": true, "nonprofit": false,
+    "batch": "Fall 2026", "status": "Active", "industries": ["B2B"], "regions": ["Remote"],
+    "stage": "Early", "url": "https://www.ycombinator.com/companies/cerebral-valley"
+  },
+  {
+    "id": 2, "name": "Gone Inc", "slug": "gone", "website": "https://gone.example",
+    "one_liner": "Shut down", "team_size": 0, "launched_at": 1790000000, "tags": [],
+    "isHiring": false, "batch": "Fall 2026", "status": "Inactive", "industries": [], "regions": [],
+    "url": "https://www.ycombinator.com/companies/gone"
+  },
+  {
+    "id": 3, "name": "No Site", "slug": "no-site", "website": "", "one_liner": null,
+    "team_size": null, "launched_at": null, "tags": [], "isHiring": false, "batch": "Fall 2026",
+    "status": "Active", "industries": [], "regions": [],
+    "url": "https://www.ycombinator.com/companies/no-site"
+  }
+]

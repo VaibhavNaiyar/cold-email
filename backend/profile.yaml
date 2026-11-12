@@ -1,0 +1,119 @@
+name: Vaibhav Naiyar
+# From the resume and public GitHub repos (checked 2026-11-02). The scorer reads this.
+summary: >-
+  Final-year B.Tech CSE student at SRM University (graduates May 2027, GPA 8.92), based in India.
+  AI Apprentice at SynaptyX AI (UK, remote) since July 2026: builds multi-agent demos shown to
+  clients, a shared AG-UI/A2UI response-orchestration layer, a .docx survey platform streamed
+  over AG-UI, OpenTelemetry tracing, and found a cross-tenant authorization bug.
+  Freelance full-stack work shipped to production: CloudVidya Academy (Turborepo, two Next.js
+  apps, Postgres/Prisma, Redis, NextAuth, Gemini embeddings + Qdrant search, Razorpay) and
+  thelanguagesalon.com (Next.js, SSR/SEO, payments).
+  Projects: a streaming RAG engine with a live operator console (Samsung PRISM GenAI hackathon;
+  FastAPI, BM25 + embeddings, AG-UI, OpenTelemetry), a real-time collaborative drawing app over
+  WebSockets with CI/CD, an uptime monitor with Redis Streams workers (TypeScript and Rust),
+  a contest platform, an LMS, LangGraph agents with memory, an AI mail-assistant monorepo,
+  WebRTC video calls, a Socket.io chess game, Solana and EVM token tools.
+  Strongest at TypeScript/Next.js product engineering and agentic LLM apps; working knowledge
+  of Python/FastAPI, Rust, Docker, Prometheus and Kubernetes basics. Looking for an engineering
+  role or internship at an early-stage AI startup.
+roles: [AI engineer, full-stack engineer, software engineer (SDE), forward deployed engineer, DevOps / platform engineer, agentic AI / LLM application engineer, founding engineer (junior)]
+stack:
+  - TypeScript
+  - Next.js
+  - React
+  - Node.js / Express
+  - Python / FastAPI
+  - Rust
+  - PostgreSQL / Prisma
+  - Redis
+  - RAG / Qdrant / embeddings
+  - LangChain / LangGraph
+  - AG-UI / A2UI agent orchestration
+  - OpenTelemetry
+  - WebSockets / WebRTC
+  - Docker / CI/CD
+  - Solana / EVM
+locations: [India, remote-global, remote-EU, remote-UK, Germany]
+# On-site roles count only here; anywhere else the company must allow remote work.
+# Cities are listed because job boards often name the city, not the country.
+onsite_regions:
+  [India, Bengaluru, Bangalore, Hyderabad, Pune, Mumbai, Delhi, New Delhi, Gurugram, Gurgaon,
+   Noida, Chennai, Kolkata, Ahmedabad, Germany, Berlin, Munich]
+stage: [pre-seed, seed, series-a]
+must_be_ai: true
+exclude_domains: []
+max_emails_per_day: 10
+proof_points:   # The LLM picks the most relevant one; it goes into the email word for word.
+  - "At SynaptyX AI I build multi-agent demos and a shared AG-UI orchestration layer used across products"
+  - "Built a streaming RAG engine that retrieves before the speaker finishes, with a live operator console"
+  - "Shipped CloudVidya Academy: two Next.js apps with Qdrant semantic search, Razorpay and NextAuth"
+  - "Built a real-time collaborative drawing app over WebSockets, deployed with CI/CD"
+  - "Built an uptime monitor with Redis Streams workers, in TypeScript and again in Rust"
+  - "Shipped thelanguagesalon.com in Next.js with SSR, payments and a Lighthouse score of 92"
+  - "Built a Solana and EVM token launchpad with wallet connection and an AMM price terminal"
+
+# Job finder. A title must contain one `include` phrase and no `exclude` phrase (whole words,
+# any case, punctuation ignored, so "full-stack" also matches "Full Stack").
+job_titles:
+  include:
+    - engineer
+    - developer
+    - sde
+    - swe
+    - software
+    - programmer
+    - full stack
+    - fullstack
+    - frontend
+    - backend
+    - forward deployed
+    - devops
+    - sre
+    - site reliability
+    - platform engineer
+    - infrastructure
+    - cloud
+    - mlops
+    - fde
+    - founding engineer
+    - ai
+    - ml
+    - llm
+    - machine learning
+    - applied ai
+    - new grad
+    - graduate
+    - early career
+    - entry level
+    - junior
+    - intern
+    - internship
+    - apprentice
+  exclude:
+    - senior
+    - sr
+    - staff
+    - principal
+    - lead
+    - manager
+    - director
+    - head
+    - vp
+    - vice president
+    - distinguished
+    - architect
+    - iii
+    - iv
+    - sales
+    - account
+    - recruiter
+    - recruiting
+    - marketing
+    - designer
+    - hardware
+    - mechanical
+    - electrical
+    - firmware
+    - analog
+    - chip
+    - silicon

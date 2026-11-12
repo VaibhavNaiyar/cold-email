@@ -1,0 +1,29 @@
+feeds:
+  - https://techcrunch.com/category/venture/feed/
+  - https://techcrunch.com/category/startups/feed/
+  - https://sifted.eu/feed
+  - https://inc42.com/feed/
+  - https://yourstory.com/feed
+  - https://news.crunchbase.com/feed/
+  - https://techcrunch.com/category/artificial-intelligence/feed/
+yc_batches: 4
+formd_days: 4
+max_domain_searches_per_day: 20
+max_domain_attempts: 3
+max_contact_searches_per_run: 10
+max_contact_companies_per_run: 60
+min_contact_score: 50
+# Job finder
+max_career_checks_per_run: 80   # company websites read for a careers board
+career_recheck_days: 14
+yc_recheck_days: 7            # YC pages of companies not marked hiring
+max_job_scores_per_run: 400
+# Weekly Tavily search of Ashby, Lever and Greenhouse for new startup boards (one search per term).
+board_search_days: 7
+board_search_terms:
+  - AI engineer remote
+  - full stack engineer remote
+  - forward deployed engineer
+  - devops engineer remote
+  - founding engineer
+  - software engineer new grad

@@ -1,0 +1,28 @@
+# Build output
+target/
+node_modules/
+.next/
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Personal data: never published (this repo is public)
+*.pdf
+startups-ranked.csv
+
+# Third-party contact data and paid lead lists
+cold-email-companies/company-list/**/*.xlsx
+cold-email-companies/company-list/**/*.tsv
+cold-email-companies/cold-email/email-creation/drafts/
+
+# Paid course material (copyrighted)
+cold-email-companies/cold-email/refrence/
+
+# Local Claude Code setup (the skill is a link to cold-email-companies/)
+.claude/
+
+# Course examples quoted word for word (copyrighted); stays local for the skill
+cold-email-companies/cold-email/email-creation/references/playbook.md

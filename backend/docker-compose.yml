@@ -1,0 +1,16 @@
+name: ai-job
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: scout
+      POSTGRES_PASSWORD: scout
+      POSTGRES_DB: scout
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - scout-pg:/var/lib/postgresql/data
+
+volumes:
+  scout-pg:

@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+/* Airmail: cool paper, navy ink, and the red and blue of an envelope edge. */
+:root {
+  --paper: #f3f5f8;
+  --surface: #ffffff;
+  --ink: #161a21;
+  --muted: #5a6271;
+  --line: #dbe0e7;
+  --navy: #1f3c8f;
+  --red: #c2342f;
+  --tint: #e9effd;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0f1218;
+    --surface: #171b23;
+    --ink: #e6e8ec;
+    --muted: #98a1b0;
+    --line: #2a303b;
+    --navy: #93a9f2;
+    --red: #e3665f;
+    --tint: #1c2539;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper: #0f1218;
+  --surface: #171b23;
+  --ink: #e6e8ec;
+  --muted: #98a1b0;
+  --line: #2a303b;
+  --navy: #93a9f2;
+  --red: #e3665f;
+  --tint: #1c2539;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-navy: var(--navy);
+  --color-red: var(--red);
+  --color-tint: var(--tint);
+  --font-sans: var(--font-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-letter), ui-serif, Georgia, serif;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "tnum" 0;
+}
+
+/* The one decorative element: an airmail envelope edge around each letter. */
+.airmail {
+  padding: 6px;
+  border-radius: 10px;
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--red) 0 12px,
+    var(--surface) 12px 18px,
+    var(--navy) 18px 30px,
+    var(--surface) 30px 36px
+  );
+}
+
+:focus-visible {
+  outline: 2px solid var(--navy);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

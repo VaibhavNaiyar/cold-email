@@ -1,0 +1,2 @@
+[alias]
+scout = "run --quiet -p scout-cli --"

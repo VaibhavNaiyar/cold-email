@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Test feed</title>
+    <link>https://news.test</link>
+    <description>Fixture shaped like the TechCrunch feed</description>
+    <item>
+      <title><![CDATA[Acme raises $3M]]></title>
+      <link>https://news.test/acme-raises</link>
+      <pubDate>Sat, 31 Oct 2026 21:36:07 +0000</pubDate>
+      <description><![CDATA[<p>Acme raised a <b>seed</b> round.</p>]]></description>
+    </item>
+    <item>
+      <title>South Korea is betting on startups</title>
+      <link>https://news.test/korea</link>
+      <pubDate>Fri, 30 Oct 2026 14:26:45 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

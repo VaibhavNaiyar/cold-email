@@ -1,0 +1,27 @@
+[
+  {
+    "additionalPlain": "",
+    "categories": {
+      "commitment": "Full-time",
+      "location": "Bengaluru, India",
+      "team": "Engineering",
+      "allLocations": ["Bengaluru, India", "Remote"]
+    },
+    "createdAt": 1786436291368,
+    "descriptionPlain": "Ship agents to customers.",
+    "id": "6ed76ce8-4156-4b60-b120-403538bd66cd",
+    "text": "Forward Deployed Engineer",
+    "country": "IN",
+    "workplaceType": "hybrid",
+    "hostedUrl": "https://jobs.lever.co/acme/6ed76ce8-4156-4b60-b120-403538bd66cd",
+    "applyUrl": "https://jobs.lever.co/acme/6ed76ce8-4156-4b60-b120-403538bd66cd/apply"
+  },
+  {
+    "categories": { "location": "New York" },
+    "createdAt": null,
+    "id": "b2",
+    "text": "Account Executive",
+    "workplaceType": "onsite",
+    "hostedUrl": "https://jobs.lever.co/acme/b2"
+  }
+]

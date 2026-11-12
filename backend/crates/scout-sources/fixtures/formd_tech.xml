@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+    <schemaVersion>X0708</schemaVersion>
+    <submissionType>D</submissionType>
+    <primaryIssuer>
+        <entityName>Synaptyx Labs Inc.</entityName>
+        <issuerAddress><stateOrCountry>CA</stateOrCountry></issuerAddress>
+        <issuerPreviousNameList><value>None</value></issuerPreviousNameList>
+        <yearOfInc><withinFiveYears>true</withinFiveYears><value>2024</value></yearOfInc>
+    </primaryIssuer>
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName><firstName>Ada</firstName><lastName>Stone</lastName></relatedPersonName>
+            <relatedPersonRelationshipList><relationship>Executive Officer</relationship></relatedPersonRelationshipList>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+    <offeringData>
+        <industryGroup><industryGroupType>Other Technology</industryGroupType></industryGroup>
+        <typeOfFiling><newOrAmendment><isAmendment>false</isAmendment></newOrAmendment></typeOfFiling>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>5000000</totalOfferingAmount>
+            <totalAmountSold>2500000</totalAmountSold>
+        </offeringSalesAmounts>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,15 @@
+[package]
+name = "scout-config"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+dotenvy.workspace = true
+serde.workspace = true
+serde_yaml_ng.workspace = true
+
+[lints]
+workspace = true

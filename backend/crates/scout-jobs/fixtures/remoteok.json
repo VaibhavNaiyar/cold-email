@@ -1,0 +1,13 @@
+[
+  { "last_updated": 1793721625, "legal": "API Terms of Service: Please link back to the URL on Remote OK." },
+  {
+    "slug": "devops-engineer-acme-1137620", "id": "1137620", "epoch": 1793635208,
+    "date": "2026-11-02T16:00:08+00:00", "company": "Acme", "position": "DevOps Engineer",
+    "tags": ["devops", "kubernetes"], "description": "<p>Run our <b>Kubernetes</b> clusters.</p>",
+    "location": "", "url": "https://remoteOK.com/remote-jobs/devops-engineer-acme-1137620"
+  },
+  {
+    "id": "2", "epoch": null, "company": "Beta", "position": "Full Stack Developer",
+    "location": "India", "url": "https://remoteOK.com/remote-jobs/2"
+  }
+]

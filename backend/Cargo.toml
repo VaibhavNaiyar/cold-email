@@ -1,0 +1,45 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+publish = false
+
+[workspace.dependencies]
+scout-config = { path = "crates/scout-config" }
+scout-db = { path = "crates/scout-db" }
+scout-enrich = { path = "crates/scout-enrich" }
+scout-jobs = { path = "crates/scout-jobs" }
+scout-llm = { path = "crates/scout-llm" }
+scout-mail = { path = "crates/scout-mail" }
+scout-sources = { path = "crates/scout-sources" }
+
+anyhow = "1"
+axum = "0.8"
+async-imap = { version = "0.12", default-features = false, features = ["runtime-tokio"] }
+chrono = { version = "0.4", default-features = false, features = ["clock", "serde"] }
+clap = { version = "4", features = ["derive"] }
+dotenvy = "0.15"
+feed-rs = "3"
+futures = "0.3"
+# Builder only: without a transport feature this crate cannot send mail.
+lettre = { version = "0.11", default-features = false, features = ["builder"] }
+psl = "2"
+regex = "1"
+reqwest = { version = "0.13", default-features = false, features = ["native-tls", "json", "gzip"] }
+roxmltree = "0.20"
+scraper = "0.29"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_yaml_ng = "0.10"
+sqlx = { version = "0.9", default-features = false, features = ["runtime-tokio", "tls-native-tls", "postgres", "chrono", "json", "macros", "migrate"] }
+texting_robots = "0.2"
+tokio-native-tls = "0.3"
+tokio = { version = "1", features = ["macros", "net", "rt-multi-thread", "time"] }
+url = "2"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"

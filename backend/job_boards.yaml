@@ -1,0 +1,80 @@
+# Careers boards to read on every `cargo scout jobs` run, on top of the ones found
+# automatically (YC companies, and boards linked from startup websites).
+# ats: greenhouse | lever | ashby | yc | remoteok | himalayas | hn | wwr
+# slug: the part after the provider's host, e.g. jobs.ashbyhq.com/<slug>
+# Each entry was checked live on 2026-11-02: the board exists and its roles belong to that company.
+
+# Feeds that list many companies. The slug is the search: a RemoteOK tag, a Himalayas query.
+# RemoteOK and Himalayas ask to be named and linked as the source; the page does both.
+- { name: "Hacker News: Who is hiring?", ats: hn, slug: latest }
+- { name: "RemoteOK: DevOps", ats: remoteok, slug: devops }
+- { name: "RemoteOK: Full stack", ats: remoteok, slug: full-stack }
+- { name: "RemoteOK: AI", ats: remoteok, slug: ai }
+- { name: "RemoteOK: Backend", ats: remoteok, slug: backend }
+- { name: "RemoteOK: Frontend", ats: remoteok, slug: frontend }
+- { name: "Himalayas: full stack engineer", ats: himalayas, slug: full stack engineer }
+- { name: "Himalayas: devops engineer", ats: himalayas, slug: devops engineer }
+- { name: "Himalayas: AI engineer", ats: himalayas, slug: ai engineer }
+- { name: "Himalayas: software engineer", ats: himalayas, slug: software engineer }
+- { name: "Himalayas: forward deployed engineer", ats: himalayas, slug: forward deployed engineer }
+- { name: "Himalayas: junior software engineer", ats: himalayas, slug: junior software engineer }
+- { name: "We Work Remotely: Full-stack", ats: wwr, slug: remote-full-stack-programming-jobs }
+- { name: "We Work Remotely: DevOps", ats: wwr, slug: remote-devops-sysadmin-jobs }
+- { name: "We Work Remotely: Back-end", ats: wwr, slug: remote-back-end-programming-jobs }
+- { name: "We Work Remotely: Front-end", ats: wwr, slug: remote-front-end-programming-jobs }
+
+# AI products and agents
+- { name: LangChain, ats: ashby, slug: langchain }
+- { name: Letta, ats: ashby, slug: letta }
+- { name: Mem0, ats: ashby, slug: mem0 }
+- { name: Langfuse, ats: ashby, slug: langfuse }
+- { name: Composio, ats: ashby, slug: composio }
+- { name: Lovable, ats: ashby, slug: lovable }
+- { name: Sierra, ats: ashby, slug: sierra }
+- { name: Decagon, ats: ashby, slug: decagon }
+- { name: Dust, ats: ashby, slug: dust }
+- { name: Granola, ats: ashby, slug: granola }
+- { name: Cognition, ats: ashby, slug: cognition }
+- { name: Harvey, ats: ashby, slug: harvey }
+- { name: Perplexity, ats: ashby, slug: perplexity }
+- { name: Krea, ats: ashby, slug: krea }
+- { name: Firecrawl, ats: ashby, slug: firecrawl }
+- { name: Browserbase, ats: ashby, slug: browserbase }
+- { name: E2B, ats: ashby, slug: e2b }
+- { name: Vapi, ats: ashby, slug: vapi }
+- { name: ElevenLabs, ats: ashby, slug: elevenlabs }
+- { name: Deepgram, ats: ashby, slug: deepgram }
+- { name: LiveKit, ats: ashby, slug: livekit }
+
+# AI infrastructure and models
+- { name: Cohere, ats: ashby, slug: cohere }
+- { name: Modal, ats: ashby, slug: modal }
+- { name: Baseten, ats: ashby, slug: baseten }
+- { name: Pinecone, ats: ashby, slug: pinecone }
+- { name: Weaviate, ats: ashby, slug: weaviate }
+- { name: Together AI, ats: greenhouse, slug: togetherai }
+- { name: Scale AI, ats: greenhouse, slug: scaleai }
+- { name: Glean, ats: greenhouse, slug: gleanwork }
+- { name: Databricks, ats: greenhouse, slug: databricks }
+- { name: Mistral AI, ats: lever, slug: mistral }
+
+# Developer tools, many hire remotely
+- { name: Supabase, ats: ashby, slug: supabase }
+- { name: PostHog, ats: ashby, slug: posthog }
+- { name: Linear, ats: ashby, slug: linear }
+- { name: Replit, ats: ashby, slug: replit }
+- { name: n8n, ats: ashby, slug: n8n }
+- { name: Neon, ats: ashby, slug: neon }
+- { name: Clerk, ats: ashby, slug: clerk }
+- { name: Resend, ats: ashby, slug: resend }
+- { name: Inngest, ats: ashby, slug: inngest }
+- { name: Trigger.dev, ats: ashby, slug: triggerdev }
+- { name: Mintlify, ats: ashby, slug: mintlify }
+- { name: Hex, ats: ashby, slug: hex }
+- { name: Vercel, ats: greenhouse, slug: vercel }
+
+# India
+- { name: Sarvam AI, ats: ashby, slug: sarvam }
+- { name: CRED, ats: lever, slug: cred }
+- { name: Meesho, ats: lever, slug: meesho }
+- { name: Plivo, ats: lever, slug: plivo }
